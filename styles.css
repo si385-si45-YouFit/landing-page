@@ -60,9 +60,6 @@ body{
 }
 
 
-
-
-
 section.youFit{
     background: linear-gradient(to left, rgb(68, 68, 68), rgb(134, 207, 219), rgb(56, 56, 56));
     padding: 3rem 0;
@@ -129,6 +126,24 @@ body{
 }
 
 
+.btnEnviar{
+    border: 1px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 260px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    color: black;
+    background-size: 300%;
+}
+.btn2{
+    background-color: rgb(101, 193, 201);
+}
+
+
+
 section.Prendas{
     background: linear-gradient(to left, rgb(127, 191, 237), rgb(89, 100, 158));
     padding: 3rem 0;
@@ -163,9 +178,32 @@ body{
 }
 
 
+.img_cont{
+    display: flex;
+    justify-content: center;
+     
+   
+}
 
+div.mostrador{
+    margin: 10px 60px;
+    box-shadow: 0 4px 8px 0 rgb(168, 215, 231), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    
+}
 
+div.mostrador img{
+    
+    width: 100%;
+    height: auto;
+}
 
+div.descrip{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(54, 29, 104);
+    padding: 10px;
+}
 
 section.formulario{
     background: linear-gradient(to left, rgb(133, 112, 89), rgb(68, 68, 68));
@@ -206,6 +244,7 @@ body{
     border-color: gray;
     border-radius: 7px;
    }
+
   button{
     width: 90px;
     background-color: #3292a5;
@@ -214,3 +253,6 @@ body{
     text-decoration: none;
     color: #e6e6e6;
    }
+
+
+   

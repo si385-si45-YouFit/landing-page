@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>YouftFit</title>
+        <title>IHC</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,53 +15,58 @@
             <ul>
                 <li><a class="active" href="#">Inicio</a></li>
                 <li><a href="#">Youtfit</a></li>
-                <li><a href="#">Prendas</a></li>
                 <li><a href="#">Historia</a></li>
+                <li><a href="#">Prendas</a></li>
                 <li><a href="#">Contactos</a></li>
             </ul>
         </nav>
 
-        <section class="banner">
+        <section class="banner" id="Inicio">
             <div class="containerB">
                 <div class="boxB col1">
                     <font size="5">
                     <img src="Imagenes/img100.jpg" height = "530" class="imgBanner" alt="">
                 </div>
-                <div class="boxB col2">
+
+                <div class="boxB col2" >
+
                     <div align="center" class="boxB row1">
                         <font size="5">
                         <h1>Compra tu ropa online</h1>
                     </div>
-                    <div class="boxB row2"> <br>
-                        <p align="center" id="txtBanner">
-                            Nuestra empresa ha sido creada con el proposito de que usted pueda acceder a 
-                            multiples prendas de vestir y poder probarlas con la realidad aumentada.
-                        </p>
-                    </div>
-                    <br><br>
-                    <h1 align="center">
-                        Disponible en IOS y Android
-                    </h1>
-                    <br>
-                    <div align="center" class="BoxB row3">
-                        <img src="Imagenes/Apple.png" height = "85" class="imgApple" alt="">
-                        <img src="Imagenes/Vacio.png" height = "30" class="imgApple" alt="">
-                        <img src="Imagenes/Android.png" height = "80" class="imgAndroid" alt="">
-                    </div>
-                    <br>
-                    <div align="center" class="ContenedorBTN">
-                        <button class="btnDescargar btn1">Descargar</button>
-                    </div>
+
+                        <div class="boxB row2"> <br>
+                            <p align="center" id="txtBanner">
+                                Nuestra empresa ha sido creada con el proposito de que usted pueda acceder a 
+                                multiples prendas de vestir y poder probarlas con la realidad aumentada.
+                            </p>
+                        </div>
+
+                        <br><br>
+
+                        <h1 align="center">
+                            Disponible en IOS y Android
+                        </h1>
+                        <br>
+                        <div align="center" class="BoxB row3">
+                            <img src="Imagenes/Apple.png" height = "85" class="imgApple" alt="">
+                            <img src="Imagenes/Vacio.png" height = "30" class="imgApple" alt="">
+                            <img src="Imagenes/Android.png" height = "80" class="imgAndroid" alt="">
+                        </div>
+                        <br>
+                        <div align="center" class="ContenedorBTN">
+                            <button class="btnDescargar btn1">Descargar</button>
+                        </div>
                 </div>
             </div>
         </section>
 
-        <section class="youFit">
+        <section class="youFit" id="Youtfit">
             <div class="youFit2">
                 <div align="center" class="boxB row1"> <br>
-                    <h1>YOURTFIT</h1>
+                    <h1>YOUFIT</h1>
                     <p align="center" id="txtServices"> <br>
-                        YoutFit, un sitio donde puedes encontrar una amplia variedad de productos con las mejores ofertas
+                        YouFit, un sitio donde puedes encontrar una amplia variedad de productos con las mejores ofertas 
                         de los productos de tus marcas favoritas.
                     </p> <br>
                     <div align="center" class="contenedor">
@@ -92,7 +97,7 @@
             </div>
         </section>
 
-        <section class="Historia">
+        <section class="Historia" id="Historia">
             <div class="historiaInfo1">
                 <div class="boxC col1">
                     <font size="5">
@@ -126,8 +131,73 @@
         </section>
 
 
+        <section class="Prendas" id="Prendas">
+            
+            <div class="cont_Prendas">
 
-        <section class="Contactanos">
+                <div class="info_general">
+
+                    <h1 align="center" class="titulo">Prendas que podrás adquirir</h1>
+                    <br>
+                    <p align="center" id="txt_prendas"> 
+                        Dentro de la propia aplicación, podrás seleccionar las prendas que llamen más tu atención
+                    </p>
+                    <br>
+                  
+
+
+                     <div  class="img_cont">
+
+                        <div class="mostrador">
+
+                            <div class="foto">
+                                <img src="Imagenes/casacanike.jpg" class="ropa1" alt="Chaqueta">
+                            </div>
+                            
+                            <div class="descrip">
+                                <p>Chaqueta High Sierra Molo Hybrid para hombre</p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="mostrador">
+    
+                            <div class="foto">
+                                <img src="Imagenes/jeanindex.jpg"  class="ropa2" alt="Jean">
+                            </div>
+                            
+                            <div class="descrip">
+                                <p>Jean index para mujer Tyra</p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="mostrador">
+    
+                            <div class="foto">
+                                
+                                <img src="Imagenes/patalon mujer.jpg" class="ropa3" alt="Pantalón mujer">
+                            
+                            </div>
+                            
+                            <div class="descrip">
+                                <p>Pantalón Navigata para mujer</p>
+                            </div>
+    
+                        </div>
+                        
+
+                    </div>
+                
+                    <br>
+
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="Contactanos" id="Contactos">
             <div class="contactanosInfo">
                 <div class="boxC col1">
                     <div align="center" class="boxB row1">
@@ -167,17 +237,17 @@
                         <label for="direccion">Dirección</label><br>
                         <input type="text" placeholder="Av.Lima "  name="direccion" id="direccion">
                     </div>
+
+                    <br>
+                    <div align="center" class="ContenedorBTN">
+                        <button class="btnEnviar btn2">Enviar</button>
+                    </div>
+                     
                 </div>
+
+              
             </div>
         </section>
-
-
-
-
-
-
-
-        
 
     </body>
 </html>
