@@ -7,8 +7,15 @@
 }
 nav{
     background: #42c4e1 ;
-    height: 80px;
+    height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.nav.active{
+    padding: 15px;
 }
 .enlace{
     position: absolute;
@@ -25,13 +32,13 @@ nav ul li{
 }
 nav ul li a{
     color: black;
-    font-size: 10 px;
+    font-size: 50 px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: capitalize;
 }
 .li a.active, li a:hover{
-    background: rgb(50, 112, 183);
+    background: rgb(78, 141, 213);
     transition: .5s;
 }
 header{
@@ -44,6 +51,7 @@ header{
 
 
 section.banner{
+    margin-top: 70px;
     background: linear-gradient(to left, rgb(197, 160, 160), rgb(222, 247, 241));
     padding: 3rem 0;
 }
@@ -253,6 +261,4 @@ body{
     text-decoration: none;
     color: #e6e6e6;
    }
-
-
    
